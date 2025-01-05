@@ -1,0 +1,301 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .container {
+    position: relative;
+    top: 200px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin: 10px;
+  }
+
+  .message {
+    font-size: 18px;
+    margin: 20px 0 30px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff5c93;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+
+  .confetti {
+    position: fixed;
+    width: 30px;
+    height: 40px;
+    opacity: 0.8;
+    animation: fall 3s linear infinite, spin 2s linear infinite;
+  }
+
+ 
+  @keyframes fall {
+    0% {
+      transform: translateY(-100vh) translateX(0);
+    }
+    100% {
+      transform: translateY(100vh) translateX(20px);
+    }
+  }
+
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+ 
+  .confetti1 {
+    background-color: red;
+    left: 10%;
+    animation-delay: 0s;
+  }
+
+  .confetti2 {
+    background-color: blue;
+    left: 20%;
+    animation-delay: 0.5s;
+  }
+
+  .confetti3 {
+    background-color: yellow;
+    left: 30%;
+    animation-delay: 1s;
+  }
+
+  .confetti4 {
+    background-color: green;
+    left: 40%;
+    animation-delay: 1.5s;
+  }
+
+  .confetti5 {
+    background-color: orange;
+    left: 50%;
+    animation-delay: 2s;
+  }
+
+  .confetti6 {
+    background-color: purple;
+    left: 60%;
+    animation-delay: 2.5s;
+  }
+
+  .confetti7 {
+    background-color: pink;
+    left: 70%;
+    animation-delay: 3s;
+  }
+
+  .confetti8 {
+    background-color: cyan;
+    left: 80%;
+    animation-delay: 3.5s;
+  }
+
+  .confetti9 {
+    background-color: lime;
+    left: 90%;
+    animation-delay: 4s;
+  }
+  .confetti11 {
+    background-color: red;
+    left: 10%;
+    top: 90%;
+    animation-delay: 0s;
+  }
+
+  .confetti12 {
+    background-color: blue;
+    left: 10%;
+    top: 80%;
+    animation-delay: 0.5s;
+  }
+
+  .confetti13 {
+    background-color: yellow;
+    left: 10%;
+    top: 70%;
+    animation-delay: 1s;
+  }
+
+  .confetti14 {
+    background-color: green;
+    left: 10%;
+    top: 60%;
+    animation-delay: 1.5s;
+  }
+
+  .confetti15 {
+    background-color: orange;
+    left: 30%;
+    top: 90%;
+    animation-delay: 2s;
+  }
+
+  .confetti16 {
+    background-color: purple;
+    left: 15%;
+    top: 90%;
+    animation-delay: 2.5s;
+  }
+
+  .confetti17 {
+    background-color: pink;
+    left: 20%;
+    top: 90%;
+    animation-delay: 3s;
+  }
+
+  .confetti18 {
+    background-color: cyan;
+    left: 35%;
+    top: 90%;
+    animation-delay: 3.5s;
+  }
+
+  .confetti19 {
+    background-color: lime;
+    left: 40%;
+    top: 90%;
+    animation-delay: 4s;
+  }
+
+
+  .confetti20{
+    background-color: red;
+    left: 30%;
+    top: 80%;
+    animation-delay: 0s;
+  }
+
+  .confetti21{
+    background-color: blue;
+    left: 30%;
+    top: 70%;
+    animation-delay: 0.5s;
+  }
+
+  .confetti22{
+    background-color: yellow;
+    left: 35%;
+    top: 70%;
+    animation-delay: 1s;
+  }
+
+  .confetti23{
+    background-color: green;
+    left: 40%;
+    top: 70%;
+    animation-delay: 1.5s;
+  }
+
+  .confetti24{
+    background-color: orange;
+    left: 35%;
+    top: 80%;
+    animation-delay: 2s;
+  }
+
+  .confetti25{
+    background-color: purple;
+    left: 50%;
+    top: 90%;
+    animation-delay: 2.5s;
+  }
+
+  .confetti26{
+    background-color: pink;
+    left: 55%;
+    top: 90%;
+    animation-delay: 3s;
+  }
+
+  .confetti27{
+    background-color: cyan;
+    left: 60%;
+    top: 90%;
+    animation-delay: 3.5s;
+  }
+
+  .confetti28{
+    background-color: lime;
+    left: 50%;
+    top: 80%;
+    animation-delay: 4s;
+  }
+
+  .confetti29{
+    background-color: pink;
+    left: 50%;
+    top: 70%;
+    animation-delay: 3s;
+  }
+
+  .confetti30{
+    background-color: cyan;
+    left: 55%;
+    top: 70%;
+    animation-delay: 3.5s;
+  }
+
+  .confetti31{
+    background-color: lime;
+    left: 60%;
+    top: 70%;
+    animation-delay: 4s;
+  }
+  .confetti32{
+    background-color: lime;
+    left: 60%;
+    top: 80%;
+    animation-delay: 4s;
+  }
+  .img1{
+      width: 300px;
+      height: 300px;
+      border: 3px solid black;
+      border-radius: 20px;
+      position: absolute;
+      left: 5%;
+      top: 30%;
+      display: none;
+      transition: .5s;
+  }
+  .img2{
+      width: 300px;
+      height: 300px;
+      border: 3px solid black;
+      border-radius: 20px;
+      position: absolute;
+      left: 75%;
+      top: 30%;
+      display: none;
+      transition: .5s;
+  }
